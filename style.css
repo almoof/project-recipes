@@ -3,8 +3,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 0 100px 0;
   background-color: #e9e9e9;
+  font-family: "Merriweather Sans";
 }
 
 .content {
@@ -15,10 +16,6 @@ body {
 h1 {
   font-family: "Inter", sans-serif;
   text-align: center;
-}
-
-.list {
-  font-family: "Merriweather Sans";
 }
 
 .list a {
@@ -33,4 +30,23 @@ h1 {
   background-color: #faebff;
   border-radius: 10px;
   padding: 14px;
+}
+
+.description {
+  display: inline-block;
+  width: 500px;
+  padding: 15px;
+  height: 250px;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+.description h2 {
+  margin-top: 0;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
 }
